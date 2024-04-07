@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Generic_Covariant", "3_Generic_Covariant\3_Generic_Covariant.csproj", "{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Records", "4_Records\4_Records.csproj", "{816ED99F-17DC-49D6-9249-C7CD6DE8205F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
