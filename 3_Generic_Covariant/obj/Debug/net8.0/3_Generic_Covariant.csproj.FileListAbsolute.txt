@@ -1,0 +1,11 @@
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\bin\Debug\net8.0\3_Generic_Covariant.deps.json
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\bin\Debug\net8.0\3_Generic_Covariant.dll
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\bin\Debug\net8.0\3_Generic_Covariant.pdb
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.AssemblyInfoInputs.cache
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.AssemblyInfo.cs
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.csproj.CoreCompileInputs.cache
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.dll
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\refint\3_Generic_Covariant.dll
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.pdb
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\ref\3_Generic_Covariant.dll

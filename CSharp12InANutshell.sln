@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Generic_Covariant", "3_Generic_Covariant\3_Generic_Covariant.csproj", "{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F78D1584-5CAA-4A35-BBC9-E30FF907BD76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
