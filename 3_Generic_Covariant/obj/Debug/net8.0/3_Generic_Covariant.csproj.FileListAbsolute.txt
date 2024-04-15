@@ -9,3 +9,4 @@ C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Gen
 C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\refint\3_Generic_Covariant.dll
 C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.pdb
 C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\ref\3_Generic_Covariant.dll
+C:\projects\Tests\CSharp12InANutshell\3_Generic_Covariant\obj\Debug\net8.0\3_Generic_Covariant.sourcelink.json
