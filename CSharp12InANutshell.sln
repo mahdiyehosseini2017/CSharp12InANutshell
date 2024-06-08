@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Generic_Covariant", "3_Ge
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Records", "4_Records\4_Records.csproj", "{816ED99F-17DC-49D6-9249-C7CD6DE8205F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Preprocessor_Directives", "5_Preprocessor_Directives\5_Preprocessor_Directives.csproj", "{96D8F7CB-381E-4348-AA32-953B6421276B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{816ED99F-17DC-49D6-9249-C7CD6DE8205F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96D8F7CB-381E-4348-AA32-953B6421276B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96D8F7CB-381E-4348-AA32-953B6421276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96D8F7CB-381E-4348-AA32-953B6421276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96D8F7CB-381E-4348-AA32-953B6421276B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
