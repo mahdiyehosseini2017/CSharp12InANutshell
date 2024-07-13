@@ -4,8 +4,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        UseStandardNumericFormatStrings();
+        //UseStandardNumericFormatStrings();
         //UseStandardNumericFormatStringsByProperties();
+        UseCustomNumericFormatStrings();
     }
 
     public static void UseStandardNumericFormatStrings()
@@ -139,7 +140,9 @@ public class Program
 
         // Console.WriteLine("//////////////////////////////////////");
         // Console.WriteLine("Percent format specifier (P)");
-        // Console.WriteLine("The default is 2");
+        // //The percent ("P") format specifier multiplies a number by 100 and converts it to a string that represents a percentage.
+        // //The precision specifier indicates the desired number of decimal places
+        // //The default is 2
         // double number = .2468013;
         // Console.WriteLine(number.ToString("P", CultureInfo.InvariantCulture));
         // // Displays 24.68 %
@@ -148,6 +151,65 @@ public class Program
         // // Displays 24,68%
         // Console.WriteLine(number.ToString("P1", CultureInfo.InvariantCulture));
         // // Displays 24.7 %
+
+        // Console.WriteLine("//////////////////////////////////////");
+        // Console.WriteLine("General format specifier (G)");
+        //The general ("G") format specifier converts a number to the more compact of either fixed-point or scientific notation, 
+        //The precision specifier defines the maximum number of significant digits that can appear in the result string
+
+        // double number;
+
+        // number = 12345.6789;
+        // Console.WriteLine(number.ToString("G", CultureInfo.InvariantCulture));
+        // // Displays  12345.6789
+        // Console.WriteLine(number.ToString("G",
+        //                   CultureInfo.CreateSpecificCulture("fr-FR")));
+        // // Displays 12345,6789
+
+        // Console.WriteLine(number.ToString("G7", CultureInfo.InvariantCulture));
+        // // Displays 12345.68
+
+        // number = .0000023;
+        // Console.WriteLine(number.ToString("G", CultureInfo.InvariantCulture));
+        // // Displays 2.3E-06
+        // Console.WriteLine(number.ToString("G",
+        //                   CultureInfo.CreateSpecificCulture("fr-FR")));
+        // // Displays 2,3E-06
+
+        // number = .0023;
+        // Console.WriteLine(number.ToString("G", CultureInfo.InvariantCulture));
+        // // Displays 0.0023
+
+        // number = 1234;
+        // Console.WriteLine(number.ToString("G2", CultureInfo.InvariantCulture));
+        // // Displays 1.2E+03
+
+        // number = Math.PI;
+        // Console.WriteLine(number.ToString("G5", CultureInfo.InvariantCulture));
+        // // Displays 3.1416
+
+        // // Console.WriteLine("//////////////////////////////////////");
+        // // Console.WriteLine("Hexadecimal format specifier (X)");
+        // //the hexadecimal ("X") format specifier converts a number to a string of hexadecimal digits. 
+        // //The precision specifier indicates the minimum number of digits desired in the resulting string. 
+        // //If required, the number is padded with zeros to its left to produce the number of digits given by the precision specifier.
+        // //This format is supported only for integral types.
+        // int value;
+
+        // value = 47;
+        // Console.WriteLine(value.ToString("x"));
+
+        // Console.WriteLine(value.ToString("X"));
+
+        // Console.WriteLine(value.ToString("X8"));
+
+
+        // value = 123456789;
+        // Console.WriteLine(value.ToString("X"));
+        // // Displays 75BCD15
+        // Console.WriteLine(value.ToString("x2"));
+        // // Displays 75BCD15
+
 
 
 
@@ -161,5 +223,58 @@ public class Program
         nfi.NumberGroupSizes = [4, 4];
         nfi.NumberGroupSeparator = "*";
         Console.WriteLine(intValue.ToString("N1", nfi));
+    }
+
+    public static void UseCustomNumericFormatStrings()
+    {
+        Console.WriteLine("//////////////////////////////////////");
+        Console.WriteLine("The 0 custom specifier");
+        //The "0" custom format specifier serves as a zero-placeholder symbol. 
+        //If the value that is being formatted has a digit in the position where the zero appears in the format string, 
+        //that digit is copied to the result string; 
+        //otherwise, a zero appears in the result string. 
+        //The position of the leftmost zero before the decimal point 
+        //and the rightmost zero after the decimal point determines 
+
+        // double value;
+
+        // value = 123;
+        // Console.WriteLine(value.ToString("00000"));
+        // // Displays 00123
+
+        // value = 1.2;
+        // Console.WriteLine(value.ToString("0.00", CultureInfo.InvariantCulture));
+        // // Displays 1.20
+
+        // Console.WriteLine(value.ToString("00.00", CultureInfo.InvariantCulture));
+        // // Displays 01.20
+
+        // CultureInfo daDK = CultureInfo.CreateSpecificCulture("da-DK");
+        // Console.WriteLine(value.ToString("00.00", daDK));
+        // // Displays 01,20
+
+        // value = .56;
+        // Console.WriteLine(value.ToString("0.0", CultureInfo.InvariantCulture));
+        // // Displays 0.6
+
+        // value = 1234567890;
+        // Console.WriteLine(value.ToString("0,0", CultureInfo.InvariantCulture));
+        // // Displays 1,234,567,890
+
+        // CultureInfo elGR = CultureInfo.CreateSpecificCulture("el-GR");
+        // Console.WriteLine(value.ToString("0,0", elGR));
+        // // Displays 1.234.567.890
+
+        // value = 1234567890.123456;
+        // Console.WriteLine(value.ToString("0,0.0", CultureInfo.InvariantCulture));
+        // // Displays 1,234,567,890.1
+
+        // value = 1234.567890;
+        // Console.WriteLine(value.ToString("0,0.00", CultureInfo.InvariantCulture));
+        // // Displays 1,234.57
+
+                Console.WriteLine("//////////////////////////////////////");
+        Console.WriteLine("The 0 custom specifier");
+
     }
 }
