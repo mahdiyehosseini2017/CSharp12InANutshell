@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "ilL5QxxjectR/H4lUc8/oJr8vKkoj/RL4pRxSEfdAPvTlyYe2dI2rHICuEP2Bh7nQnxB0umMCzRnIKDUb3MQjw==",
+  "dgSpecHash": "g3LYaul0ZbGqnefDL9UbJMoOhbrczPWKBH4SSd8WKUPrEM/E0u1P8uHgarQrw4e/o7NY2tm0xawpUTbIZl6aHg==",
   "success": true,
-  "projectFilePath": "E:\\programming_1402\\books\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj",
+  "projectFilePath": "C:\\projects\\Tests\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.xaniis.local/repository/nuget-hosted/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    },
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.xaniis.local/repository/nuget-hosted'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
 }

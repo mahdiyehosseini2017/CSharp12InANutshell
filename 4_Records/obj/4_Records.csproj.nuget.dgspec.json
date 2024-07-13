@@ -1,25 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\4_Records.csproj": {}
+    "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\4_Records.csproj": {}
   },
   "projects": {
-    "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\4_Records.csproj": {
+    "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\4_Records.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
+        "projectUniqueName": "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
         "projectName": "4_Records",
-        "projectPath": "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\obj\\",
+        "projectPath": "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
+        "packagesPath": "C:\\Users\\m.hosseini\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\m.hosseini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.xaniis.local/repository/nuget-hosted": {},
+          "http://nexus.xaniis.local/repository/nuget-hosted/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

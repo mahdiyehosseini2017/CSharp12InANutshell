@@ -1,25 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "E:\\programming_1402\\books\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj": {}
+    "C:\\projects\\Tests\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj": {}
   },
   "projects": {
-    "E:\\programming_1402\\books\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj": {
+    "C:\\projects\\Tests\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\programming_1402\\books\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj",
+        "projectUniqueName": "C:\\projects\\Tests\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj",
         "projectName": "3_Generic_Covariant",
-        "projectPath": "E:\\programming_1402\\books\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "E:\\programming_1402\\books\\CSharp12InANutshell\\3_Generic_Covariant\\obj\\",
+        "projectPath": "C:\\projects\\Tests\\CSharp12InANutshell\\3_Generic_Covariant\\3_Generic_Covariant.csproj",
+        "packagesPath": "C:\\Users\\m.hosseini\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\Tests\\CSharp12InANutshell\\3_Generic_Covariant\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\m.hosseini\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.xaniis.local/repository/nuget-hosted": {},
+          "http://nexus.xaniis.local/repository/nuget-hosted/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
