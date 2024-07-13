@@ -8,28 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\m.hosseini\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
+      "projectUniqueName": "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
       "projectName": "4_Records",
-      "projectPath": "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
-      "packagesPath": "C:\\Users\\m.hosseini\\.nuget\\packages\\",
-      "outputPath": "C:\\projects\\Tests\\CSharp12InANutshell\\4_Records\\obj\\",
+      "projectPath": "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\4_Records.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "E:\\programming_1402\\books\\CSharp12InANutshell\\4_Records\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\m.hosseini\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nexus.xaniis.local/repository/nuget-hosted": {},
-        "http://nexus.xaniis.local/repository/nuget-hosted/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -66,19 +62,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.xaniis.local/repository/nuget-hosted/'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    },
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nexus.xaniis.local/repository/nuget-hosted'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }

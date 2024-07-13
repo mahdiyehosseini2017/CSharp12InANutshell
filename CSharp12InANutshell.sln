@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Records", "4_Records\4_Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Preprocessor_Directives", "5_Preprocessor_Directives\5_Preprocessor_Directives.csproj", "{96D8F7CB-381E-4348-AA32-953B6421276B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6_DotNetFundamental", "6_DotNetFundamental", "{A15638A3-9AB5-45F0-9B15-BCEF83E0813C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_StandardFormatStringsAndParsingFlags", "6_DotNetFundamental\1_StandardFormatStringsAndParsingFlags\1_StandardFormatStringsAndParsingFlags.csproj", "{0DD64F4A-908C-4EF4-BC57-66B43788B0AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{96D8F7CB-381E-4348-AA32-953B6421276B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96D8F7CB-381E-4348-AA32-953B6421276B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96D8F7CB-381E-4348-AA32-953B6421276B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD64F4A-908C-4EF4-BC57-66B43788B0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD64F4A-908C-4EF4-BC57-66B43788B0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD64F4A-908C-4EF4-BC57-66B43788B0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD64F4A-908C-4EF4-BC57-66B43788B0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DD64F4A-908C-4EF4-BC57-66B43788B0AE} = {A15638A3-9AB5-45F0-9B15-BCEF83E0813C}
 	EndGlobalSection
 EndGlobal
